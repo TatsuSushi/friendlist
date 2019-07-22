@@ -16,7 +16,7 @@ class Header extends Component<IHeader>{
 
         const getDefaultTitle = () => {
             if (this.props.location.pathname === '/cardview') {
-                return "Card View";
+                return "CARD View";
             } else if (this.props.location.pathname === '/listview') {
                 return "List View";
             }
